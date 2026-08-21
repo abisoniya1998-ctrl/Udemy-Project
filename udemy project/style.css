@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -85,16 +86,19 @@ display: block;
 }
 .catogories p{
     background-color: #A435F0;
-    border-radius: 20px;
+    color: white;
+    border-radius: 30px;
     padding: 10px;
-     border: solid  #A435F0 1px;
     cursor: pointer;
+    border: solid #A435F0 1px;
+    
 }
 .catogories p:hover{
-    transition: 2s;
     background-color: transparent;
     color: black;
-    border: solid  #A435F0 1px;
+    transition: 1s;
+    border: solid #A435F0 1px;
+
 }
 
 .sale-image{
@@ -114,21 +118,21 @@ display: block;
     animation-duration: 5s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-   
 }
 
-@keyframes zoom {
-    0%{
+@keyframes zoom
+{
+    0%
+    {
         transform: scale(0);
         opacity: 0;
     }
-    100%{
+    100%
+    {
         transform: scale(1);
         opacity: 1;
     }
 }
-
-
 .sale-image img{
     width: 100%;
 }
